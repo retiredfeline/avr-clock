@@ -6,7 +6,7 @@ This came about from my experiments with these two AVR chips I had lying around,
 
 It uses the [Protothreads library](http://dunkels.com/adam/pt/) by Adam Dunkels. You should adjust the -I option to the sdcc compiler to where the include files are installed.
 
-You also need the C runtime startup object files from the avr-gcc distribution. If you have installed the Arduino IDE, then you have an copy of the avr-gcc tools and libraries already.
+You also need the C runtime startup object files from the avr-gcc distribution. If you have installed the Arduino IDE, then you have a copy of the avr-gcc tools and libraries already.
 
 If you are using the Minipro TL866 to program the ATMEGA163, use the entry for ATMEGA164A and ignore the signature discrepancy with the -y option. You need to also program the fuses to enable the crystal oscillator.
 
